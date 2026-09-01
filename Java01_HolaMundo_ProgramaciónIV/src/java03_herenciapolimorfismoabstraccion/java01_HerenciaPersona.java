@@ -21,5 +21,12 @@ los ponemos en una superclase Persona y dejamos que las
 demás hereden de ella.
 */
 public class java01_HerenciaPersona {
+    //protegamos los datos
+    protected String nombre;
+    protected int edad;
     
+    //
+    public java01_HerenciaPersona(String nombre, int edad){
+        
+    } 
 }
